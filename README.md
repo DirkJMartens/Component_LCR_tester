@@ -3,9 +3,10 @@
 1. HARDWARE 
     - Hardware used is from https://github.com/Mikrocontroller-net/transistortester/tree/master/Hardware/PCB_mega328_ST7735 
 	- PCB was "scratched" using Karin's Cricut and a blank single-sided piece of cupperclad board. 
+    - After populating the PCB with all of its components, the microcontroller needs to be configured. 
     - The .HEX and .EEP files included in the folder 
 		    https://github.com/Mikrocontroller-net/transistortester/tree/master/Software/trunk/ST7735 
-	    can be used for initial testing, but needs to be adjusted. 
+	    can be used for initial testing, but these need to be adjusted. 
 	    The HEX file is an Intel HEX format file to be loaded into the flash memory of the ATMega328. 
 	    The EEP file is an Intel HEX format file to be loaded into the EEPROM memory of the ATMega328. 
 	    The fuse settings should be: Low byte: F7; High byte: D9; Extended byte: FC. 
