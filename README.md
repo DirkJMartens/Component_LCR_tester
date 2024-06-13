@@ -50,3 +50,5 @@ Similar projects can be found at:
     - https://trybotics.com/project/ardutester-v1-13-the-arduino-uno-transistor-tester-dbafb4
     - http://digilander.libero.it/nick47/ard07.htm
     Several of these are based on the original mikrocontroller.net design. 
+
+To do: build an enclosure and prettify the unit. 
