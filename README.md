@@ -2,7 +2,7 @@
 
 1. HARDWARE 
     - Hardware used is from https://github.com/Mikrocontroller-net/transistortester/tree/master/Hardware/PCB_mega328_ST7735 
-	- PCB was "scratched" using Karin's Cricut and a blank single-sided piece of cupperclad board. 
+	- PCB was scratched (=engraved) using my sister's Cricut and a blank, single-sided piece of cupperclad board. 
     - After populating the PCB with all of its components, the microcontroller needs to be configured. 
     - The .HEX and .EEP files included in the folder 
 		    https://github.com/Mikrocontroller-net/transistortester/tree/master/Software/trunk/ST7735 
@@ -13,9 +13,9 @@
 	    You can use Arduino's AVRDUDE or XGECU T48 to load both files into and set the fuses of the ATMega328. 
     - The parts list calls for two generic NPN and one generic PNP transistors. 
     - In the 3D-view, they are listed as 2N3904 and 2N3906 resp. and are oriented with the flat sides to the top of PCB. 
-    - However, the pin-out of the BC547 and BC557 transistors used is different. 
+    - However, the pin-out of the BC547 and BC557 transistors which I used is different. 
     - As a result, initial testing failed to light the power LED properly and pushing the rotary switch didn't register. 
-    - Swapping the orientation of all transistors by ensuring the C/B/E was properly connected fixed this issue. 
+    - Swapping the orientation of all transistors and ensuring the C/B/E were properly connected, fixed this issue. 
 
 2. SOFTWARE 
     - Use "git clone https://github.com/jonsag/avrComponentTester.git" to download all source files 
